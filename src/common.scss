@@ -1,0 +1,47 @@
+.button {
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc45;
+  z-index: 10;
+}
+
+.popup {
+  &__content {
+    position: absolute;
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+}
+
+.hidden {
+  display: none;
+}

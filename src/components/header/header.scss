@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  height: 60px;
+  padding: 0 48px;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.create-event-btn {
+  padding: 0 16px;
+  border-radius: 32px;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+}
+
+.icon-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  margin-right: 8px;
+  font-size: 16px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.navigation {
+  &__today-btn {
+    margin-left: 32px;
+    padding: 0 16px;
+    border-radius: 32px;
+    border: 2px solid red;
+    color: red;
+    background-color: #fff;
+
+    &:hover {
+      background-color: red;
+      color: white;
+      border: 2px solid white;
+    }
+  }
+
+  &__nav-icon {
+    font-size: 20px;
+    margin-left: 20px;
+    color: red;
+  }
+
+  &__displayed-month {
+    margin-left: 10px;
+    font-weight: 700;
+    color: white;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

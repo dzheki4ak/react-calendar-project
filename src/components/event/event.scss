@@ -1,0 +1,48 @@
+.event {
+  position: absolute;
+  width: 80%;
+  background-color: red;
+  z-index: 1;
+  border-radius: 8px;
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+
+  &__title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+
+  &:hover {
+    font-weight: 700;
+    background-color:white;
+    color: red;
+    border: 2px solid red;
+  }
+}
+
+.delete-event-btn {
+  position: absolute;
+  top: -37px;
+  right: -42px;
+  background-color: transparent;
+  border: none;
+  font-size: 10px;
+  background: crimson;
+  color: white;
+  width: 45px;
+  height: 36px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    position: absolute;
+    top: -39px;
+    right: -44px;
+    background: red;
+  }
+}
